@@ -1,0 +1,405 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  
+  .flop {
+    list-style-type: none;
+    margin-right: 70px;
+    padding: 0;
+    overflow: hidden;
+    height: 40px;
+    display: flexbox;
+    margin-top: 20px;
+    color: white;
+  
+  
+  }
+  
+  .mizel{
+    float: left;
+    padding-left: 50px;
+  }
+  
+  .logo {
+    color: white;
+    padding-left: 30px;
+    font-size: 27px;
+    font-family: cursive, sans-serif;
+  }
+  
+  
+  .mizel .mize {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family:poppins;
+  }
+  
+  .mizel .mize :hover
+                   {
+    color: burlywood;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+  }
+
+  .btn {
+    background-color: brown;
+    color: white;
+    height: 45px;
+    width: 140px;
+    text-align: center;
+    padding: auto;
+    border: none;
+    font-weight: bold;
+    margin-right: 40px;
+    font-family: poppins;
+    opacity:0.7;
+    border: 2px solid white;
+  }
+  
+  .btn:hover{
+    transition: .7s ease;
+    opacity: 1.0;
+  }
+  
+  
+  
+  
+.index{
+    margin-top: 50px;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-top: 20px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+  .pic{height: 10px;
+       float: right;}
+
+
+
+  input[type=text] {
+    float: ;
+    padding: 6px;
+    border: none;
+    margin-top: 250px;
+    margin-left: 455px;
+    font-size: 17px;
+    background-color: white;
+    width: 360px;
+    height: 50px;
+    outline: none;
+  }
+
+  .search{
+    height: 500px;
+    border: 2px solid black;
+    background: url(daniel-hooper-PaaboPF3dVY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  #big{
+    color: white;
+    padding-top: 100px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 440px;
+    font-size: 75px;
+    position: absolute;
+  }
+
+  .az{
+    color: brown;
+  }
+
+  .pz{
+    padding-left: 90px;
+  }
+
+  footer {
+    border: 2px solid black;
+    background-color: #333;
+    height: 440px;
+  }
+  
+  
+  .nosh{
+         height: 26px;
+         display: inline-block;
+         background-color: brown;
+         border-radius:50% ;
+         margin: 10px;
+         
+  }
+  .nosh:active {
+    box-shadow: 5px 7px rgb(0, 0, 0, 0.3);
+    transform: translate(0.1em, 0.1em);
+  }
+        .tues{
+          color: white;
+       
+          display: inline-block;
+          width: 280px;
+          margin-left:30px ;
+       
+        }
+  
+        .flop2{
+          text-decoration: none;
+          color: white;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+  
+        .tues2{
+          display: inline-block;
+    
+          width: 250px;
+         position: absolute;
+         margin-left: 13px;
+        }
+  
+        .tept{
+          padding: 10px;
+          text-align: justify;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          color:white;
+        }
+  
+        .colon{  text-align: justify;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          padding-left: 5px;
+  
+        }
+  
+    
+  
+     
+  
+        .act:hover{
+          color: brown;
+          transition: .5 ease;
+          -webkit-transition: .5 ease;
+          -moz-transition: .5 ease;
+          -ms-transition: .5 ease;
+          -o-transition: .5 ease;
+  }
+  
+  .act{
+    color: white;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+  
+  .colonb{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding-left: 35px;
+  }
+  
+  .colonb3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding-left: 35px;
+  }
+  
+  .colonb4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding-left: 35px;
+    position: absolute;
+  }
+  
+  
+  .pix2{
+    display: inline-block;
+    height: 23px;
+    background-color: brown;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  
+  .mac{display: inline-block;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          color: white;}
+  
+          .mac2{display: inline-block;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+              color: white;}
+  
+              .mac2:hover{
+                color: brown;
+              }
+  
+              .mac3{
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                  color: rgb(201, 201, 201);
+                  padding-left: 35px;
+           
+  
+              }
+              .mac4{
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                  color: rgb(201, 201, 201);
+                  padding-left: 35px;
+     
+              }
+  
+            
+            #mac5{
+              font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: rgb(201, 201, 201);
+           
+   
+            }
+  
+  
+              
+  
+       .tues3{
+      
+        display: inline-block;
+        position: absolute;
+        margin-left: 245px;
+       }   
+  
+       .tues4{
+     
+        display: inline-block;
+        position: absolute;
+        margin-left: 540px
+       }
+  
+  
+       
+       input[type=pext] {
+        float: ;
+        padding: 6px;
+        border: none;
+        margin-top: 60px;
+        margin-left: ;
+        font-size: 17px;
+        background-color:white;
+        width: 340px;
+        height: 55px;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        outline: none;
+  }
+  
+  input {
+    border: 4px solid black;
+  }
+  
+  .mond{
+  display: inline-block;
+  
+  margin-top: 55px;
+  }
+  
+  .feto{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(201, 201, 201);
+    font-size: 19px;
+    
+    margin-left: 340px;
+    margin-top: 50px;
+  }
+  
+  .mac6{
+    color: brown;
+  }
+  
+  .mac6:hover{
+    color: green;
+  }
+  
+
+      
+.sidebar {
+  height: 60px;
+  width: 60px;
+  position:fixed ;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 10px;
+  margin-left:1175px;
+  margin-top:540px;
+  background-color: brown;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  
+}
+
+.sidebar .maf{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: burlywood;
+  display: block;
+  background-color: brown;
+  margin-left: 1px;
+  
+
+}
+
+.sidebar :hover {
+  color: burlywood;
+}
+      
+      
+  

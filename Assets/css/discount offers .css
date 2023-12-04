@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  
+  .flop {
+    list-style-type: none;
+    margin-right: 70px;
+    padding: 0;
+    overflow: hidden;
+    height: 40px;
+    display: flexbox;
+    margin-top: 20px;
+    color: white;
+  
+  
+  }
+  
+  .mizel {
+    float: left;
+    padding-left: 50px;
+  }
+  
+  .logo {
+    color: white;
+    padding-left: 30px;
+    font-size: 27px;
+    font-family: cursive, sans-serif;
+  }
+  
+  
+  .mizel .mize {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family:poppins;
+  }
+  
+  .mizel .mize:hover {
+    color: burlywood;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+  }
+
+  .btn2 {
+    background-color: brown;
+    color: white;
+    height: 45px;
+    width: 140px;
+    text-align: center;
+    padding: auto;
+    border: none;
+    font-weight: bold;
+    margin-right: 40px;
+    font-family: poppins;
+    opacity:0.7;
+    border: 2px solid white;
+  }
+  
+  .btn2:hover{
+    transition: .7s ease;
+    opacity: 1.0;
+  }
+
+
+
+
+.modal {
+    display: none;
+    /*Hiddenbydefault*/position: fixed;
+    /*Stayinplace*/z-index: 1;
+    /*Sitontop*/left: 0;
+    top: 0;
+    width: 100%;
+    /*Fullwidth*/height: 100%;
+    /*Fullheight*/overflow: auto;
+    /*Enablescrollifneeded*/background-color: rgb(0,0,0);
+    /*Fallbackcolor*/background-color: rgba(0,0,0,0.4);
+    /*Blackw/opacity*/-webkit-animation-name: fadeIn;
+    /*Fadeinthebackground*/-webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+   
+}
+  
+  /* Modal Content */
+  .modal-content {
+    position:;
+    bottom: 0;
+    background-color: white;
+    width: 500px;
+    margin-left: 350px;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s;
+    border-radius:30px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -ms-border-radius:30px;
+    -o-border-radius:30px;
+    height: 220px;
+    margin-top: 210px;
+}
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: brown;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+ 
+  .modal-body {padding: 2px 16px;
+               background-color: white;
+                border-top-right-radius: 15px;
+                border-top-left-radius: 15px;
+                border: 2px solid white;
+                box-shadow: 5px 3px 3px gainsboro;
+                 height: 100%;
+                 background-color: brown;}
+
+  
+  /* Add Animation */
+  @-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+  }
+  
+  @keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+  
+  #myBtn{
+    border:3px solid white;
+    width:130px;
+    height:50px;
+    font-size:25px;
+    padding: ;
+    margin-left: 500px;
+    margin-top: 100px;
+    background-color: brown;
+    color: white ;
+    border-radius: 30px;
+    -webkit-border-radius: 30p;
+    -moz-border-radius: 30p;
+    -ms-border-radius: 30p;
+    -o-border-radius: 30p;
+}
+
+#myBtn:active {
+    box-shadow: 5px 7px rgb(0, 0, 0, 0.3);
+    transform: translate(0.1em, 0.1em);
+  }
+
+  .modal-body img{
+    height: 150px;
+    margin-left: ;
+    margin-top: ;
+    display: inline-block;
+    position: absolute;
+    
+  }
+
+  .modal-body p{display: inline-block;
+                border: none;
+                margin-left: 170px;
+                font-family: cursive;
+                background-color: white;
+                text-align: center;
+                height: 100px;
+                padding: 15px;
+                 }
+
+
+
+                 .sidebar {
+                    height: 160px;
+                    width: 70px;
+                    position: fixed;
+                    z-index: 1;
+                    top: 0;
+                    left: 0;
+                    background-color: #111;
+                    overflow-x: hidden;
+                    padding-top: 16px;
+                    margin-left:530px;
+                    margin-top:280px;
+                  }
+                  
+                  .sidebar a {
+                    padding: 6px 8px 6px 16px;
+                    text-decoration: none;
+                    font-size: 20px;
+                    color: #818181;
+                    display: block;
+                  }
+                  
+                  .sidebar a:hover {
+                    color: green;
+                  }
+                  
+                  .main {
+                    margin-left: ; /* Same as the width of the sidenav */
+                    padding: 0px 10px;
+                    text-align:justify;
+                    border:2px solid blue;
+                    
+                  }
+                  
+                  @media screen and (max-height: 450px) {
+                    .sidebar {padding-top: 15px;}
+                    .sidebar a {font-size: 18px;}
+                  }
+  
+
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
