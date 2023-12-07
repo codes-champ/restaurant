@@ -20,7 +20,6 @@ header {
   list-style-type: none;
   margin-right: 70px;
   padding: 0;
-  overflow: hidden;
   height: 40px;
   display: flexbox;
   margin-top: 20px;
@@ -128,7 +127,7 @@ header {
 }
 
 .index{
-  position: absolute;
+  position: relative;
   border: 1px solid burlywood;
   padding: 20px;
   background-color: burlywood;
@@ -297,20 +296,6 @@ header {
 
 
 
-@media only screen and (max-width: 600px){
-  .cook{
-    display: block;
-    margin: 10px;
-  }
-
-  .spoon{
-    display: block;
-  }
-
-  header{
-    display: flex;
-  }
-}
 
 .container {
   position: relative;
@@ -374,48 +359,6 @@ header {
 }
 
 .pix {
-  opacity: 1;
-  display: block;
-  width: 270px;
-  height: 250px;
-  transition: .5s ease;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.pix2b {
-  opacity: 1;
-  display: block;
-  width: 270px;
-  height: 250px;
-  transition: .5s ease;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.pix3b {
-  opacity: 1;
-  display: block;
-  width: 270px;
-  height: 250px;
-  transition: .5s ease;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.pix4b {
-  opacity: 1;
-  display: block;
-  width: 270px;
-  height: 250px;
-  transition: .5s ease;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.pix5b {
   opacity: 1;
   display: block;
   width: 270px;
@@ -698,11 +641,11 @@ footer {
 
      
      input[type=text] {
-      float: ;
+
       padding: 6px;
       border: none;
       margin-top: 60px;
-      margin-left: ;
+
       font-size: 17px;
       background-color:white;
       width: 340px;
@@ -779,5 +722,894 @@ margin-top: 55px;
 }
 
 
+@media only screen and (max-width: 577px){
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  
+  .flop {
+    list-style-type: none;
+    margin-right: 70px;
+    padding: 0;
+    display: none;
+    margin-top: 20px;
+    color: white;
+  
+  
+  }
+
+  
+  
+  .mizel {
+    float: left;
+    padding-left: 50px;
+    border: 2px solid white;
+  }
+  
+  .logo {
+    color: white;
+    padding-left: 0px;
+    font-size: 27px;
+    font-family: cursive, sans-serif;
+    margin-left: -85px;
+  }
+  
+  
+  .mizel .mize {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family:poppins;
+  }
+  
+  .mizel .mize:hover {
+    color: burlywood;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .btn {
+    background-color: brown;
+    color: white;
+    height: 45px;
+    text-align: center;
+    padding: none;
+    border: none;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-right: 0px;
+    font-family: poppins;
+    opacity:0.7;
+    border: 2px solid white;
+     
+  }
+  
+  .btn:hover{
+    transition: .7s ease;
+    opacity: 1.0;
+  }
+  
+  .index{
+    position: absolute;
+    border: 1px solid burlywood;
+    padding: 20px;
+    background-color: burlywood;
+    font-family: cursive;
+    border-radius: 10px;
+  
+  }
+  
+  .index:hover:before{
+                opacity:1.0;
+                transition:.3s;
+             
+  }
+  
+  
+  
+  .index:active {
+    box-shadow: 5px 7px rgb(0, 0, 0, 0.3);
+    transform: translate(0.1em, 0.1em);
+  }
+  
+  
+  .index2{
+    position: absolute;
+    border: 1px solid burlywood;
+    padding: 10px;
+    background-color: burlywood;
+    font-family: cursive;
+    border-radius: 10px;
+  
+  }
+  
+  .index2:hover{
+    opacity:1.0;
+    transition:.5s ease ;
+    -webkit-transition:.5s ease ;
+    -moz-transition:.5s ease ;
+    -ms-transition:.5s ease ;
+    -o-transition:.5s ease ;
+  }
+  
+  
+  .index2:active {
+    box-shadow: 5px 7px rgb(0, 0, 0, 0.3);
+    transform: translate(0.1em, 0.1em);
+  }
+  
+  .index3{
+    
+    position: absolute;
+    border: 1px solid burlywood;
+    padding: 20px;
+    background-color: burlywood;
+    font-family: cursive;
+    border-radius: 10px;
+  
+  }
+  .index3:active {
+    box-shadow: 5px 7px rgb(0, 0, 0, 0.3);
+    transform: translate(0.1em, 0.1em);
+  }
+  
+  
+  .index3:hover{
+    opacity:1.0;
+    transition:.5s ease ;
+    -webkit-transition:.5s ease ;
+    -moz-transition:.5s ease ;
+    -ms-transition:.5s ease ;
+    -o-transition:.5s ease ;
+  }
+  
+  
+  .index4{
+    position: absolute;
+    border: 1px solid burlywood;
+    padding: 20px;
+    background-color: burlywood;
+    font-family: cursive;
+    border-radius: 10px;
+  
+  }
+  
+  .index4:hover{
+    opacity:1.0;
+    transition:.5s ease ;
+    -webkit-transition:.5s ease ;
+    -moz-transition:.5s ease ;
+    -ms-transition:.5s ease ;
+    -o-transition:.5s ease ;
+  }
+  
+  
+  .index4:active {
+    box-shadow: 5px 7px rgb(0, 0, 0, 0.3);
+    transform: translate(0.1em, 0.1em);
+  }
+  
+  .index5{
+    
+    position: absolute;
+    border: 1px solid burlywood;
+    padding: 20px;
+    background-color: burlywood;
+    font-family: cursive;
+    border-radius: 10px;
+  
+  }
+  
+  .index5:hover{
+    opacity:1.0;
+    transition:.5s ease ;
+    -webkit-transition:.5s ease ;
+    -moz-transition:.5s ease ;
+    -ms-transition:.5s ease ;
+    -o-transition:.5s ease ;
+  }
+  
+  
+  .index5:active {
+    box-shadow: 5px 7px rgb(0, 0, 0, 0.3);
+    transform: translate(0.1em, 0.1em);
+  }
+  
+  
+  .index6{
+    position: absolute;
+    border: 1px solid burlywood;
+    padding: 20px;
+    background-color: burlywood;
+    font-family: cursive;
+    border-radius: 10px;
+  
+  }
+  
+  .index6:hover{
+    opacity:1.0;
+    transition:.5s ease ;
+    -webkit-transition:.5s ease ;
+    -moz-transition:.5s ease ;
+    -ms-transition:.5s ease ;
+    -o-transition:.5s ease ;
+  }
+  
+  
+  .index6:active {
+    box-shadow: 5px 7px rgb(0, 0, 0, 0.3);
+    transform: translate(0.1em, 0.1em);
+  }
+  
+  .btn2{
+    height: 30px;
+    border: 1px solid black;
+    width: 290px;
+    padding: 5px;
+    font-family: cursive;
+    background-color: brown;
+    color: white;
+  }
+  
+  .pic2{
+    height: 50px;
+  
+  }
+  
+  
+  
+  
+  
+  .container {
+    position: relative;
+    width: 300px;
+    display: inline-block;
+  
+    margin-left: 30px;
+  }
+  
+  .container2 {
+    position: relative;
+    width: 300px;
+    display: inline-block;
+   
+  
+  }
+  
+  .container3 {
+    position: relative;
+    width: 300px;
+    display: inline-block;
+  
+  }
+  
+  .container4 {
+    position: relative;
+    width: 300px;
+    display: inline-block;
+  
+  
+  }
+  
+  .container5 {
+    position: relative;
+    width: 300px;
+    display: inline-block;
+  
+    margin-left:30px ;
+  }
+  
+  .container6 {
+    position: relative;
+    width: 300px;
+    display: inline-block;
+  }
+  
+  .container7 {
+    position: relative;
+    width: 300px;
+    display: inline-block;
+  
+  
+  }
+  
+  .container8{
+    position: relative;
+    width: 300px;
+    display: inline-block;
+  
+  
+  }
+  
+  .shell .container .pix {
+    opacity: 1;
+    display: block;
+    width:170%;
+    height: 300px;
+    transition: .5s ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25px;
+    margin-left: -27px;
+    
+  }
+  
+  .shell .container2 .pix {
+    opacity: 1;
+    display: block;
+    width:170%;
+    height: 300px;
+    transition: .5s ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25px;
+    margin-left:5px;
+    
+  }
+
+  .shell .container3 .pix {
+    opacity: 1;
+    display: block;
+    width:170%;
+    height: 300px;
+    transition: .5s ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25px;
+    margin-left:5px;
+    
+  }
+
+  .shell .container4 .pix {
+    opacity: 1;
+    display: block;
+    width:170%;
+    height: 300px;
+    transition: .5s ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25px;
+    margin-left:5px;
+    
+  }
+
+  .shell4 .container  .pix{
+    opacity: 1;
+    display: block;
+    width:170%;
+    height: 300px;
+    transition: .5s ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25px;
+    margin-left:-22px;
+    margin-top: 0px;
+    
+  }
+
+  .shell4 .container2  .pix{
+    opacity: 1;
+    display: block;
+    width:170%;
+    height: 300px;
+    transition: .5s ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25px;
+    margin-left:10px;
+    margin-top: 0px;
+    
+  }
+
+  .shell4 .container3  .pix{
+    opacity: 1;
+    display: block;
+    width:170%;
+    height: 300px;
+    transition: .5s ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25px;
+    margin-left:10px;
+    margin-top: 0px;
+    
+  }
+
+  .shell4 .container4  .pix{
+    opacity: 1;
+    display: block;
+    width:170%;
+    height: 300px;
+    transition: .5s ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25px;
+    margin-left:10px;
+    margin-top: 0px;
+    
+  }
+
+  .shell2 .container5  .pix{
+    opacity: 1;
+    display: block;
+    width:170%;
+    height: 300px;
+    transition: .5s ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25px;
+    margin-left:-20px;
+    margin-top: 0px;
+    
+  }
+
+  .shell2 .container6  .pix{
+    opacity: 1;
+    display: block;
+    width:170%;
+    height: 300px;
+    transition: .5s ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25px;
+    margin-left:10px;
+    margin-top: 0px;
+    
+  }
+
+  .shell2 .container6  .pix{
+    opacity: 1;
+    display: block;
+    width:170%;
+    height: 300px;
+    transition: .5s ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25px;
+    margin-left:10px;
+    margin-top: 0px;
+    
+  }
+
+  .shell2 .container7  .pix{
+    opacity: 1;
+    display: block;
+    width:170%;
+    height: 300px;
+    transition: .5s ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25px;
+    margin-left:10px;
+    margin-top: 0px;
+    
+  }
+
+  .shell2 .container8  .pix{
+    opacity: 1;
+    display: block;
+    width:170%;
+    height: 300px;
+    transition: .5s ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25px;
+    margin-left:10px;
+    margin-top: 0px;
+    
+  }
 
 
+
+
+
+
+
+
+
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: 120px;
+    width: 230px;
+  }
+  
+  .container:hover .pix {
+    opacity: 0.3;
+ 
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  
+  .container2:hover .pix {
+    opacity: 0.3;
+  }
+  
+  .container2:hover .middle {
+    opacity: 1;
+  }
+  
+  
+  .container3:hover .pix {
+    opacity: 0.3;
+  }
+  
+  .container3:hover .middle {
+    opacity: 1;
+  }
+  
+  .container4:hover .pix{
+    opacity: 0.3;
+  }
+  
+  .container4:hover .middle {
+    opacity: 1;
+  }
+  
+  
+  .container5:hover .pix {
+    opacity: 0.3;
+  }
+  
+  .container5:hover .middle {
+    opacity: 1;
+  }
+  .container6:hover .pix {
+    opacity: 0.3;
+  }
+  
+  .container6:hover .middle {
+    opacity: 1;
+  }
+  .container7:hover .pix{
+    opacity: 0.3;
+  }
+  
+  .container7:hover .middle {
+    opacity: 1;
+  }
+  
+  
+  .container8:hover .pix{
+    opacity: 0.3;
+  }
+  
+  .container8:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: brown;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    margin-right: 60px;
+    cursor: pointer;
+  }
+  
+  .text:active {
+    box-shadow: 5px 7px rgb(0, 0, 0, 0.3);
+    transform: translate(0.1em, 0.1em);
+  }
+  
+  
+  .shell{
+  
+    margin-top: 40px;
+  }
+  
+  .shell2{
+    
+    margin-top: 0px;
+  }
+  
+  .gode{
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  footer {
+    border: 2px solid black;
+    background-color: #333;
+    height: 1000px;
+    width: ;
+  }
+  
+  
+  .nosh{
+         height: 26px;
+         display: inline-block;
+         background-color: brown;
+         border-radius:50% ;
+         margin: 10px;
+         
+  }
+  .nosh:active {
+    box-shadow: 5px 7px rgb(0, 0, 0, 0.3);
+    transform: translate(0.1em, 0.1em);
+  }
+        .tues{
+          color: white;
+       
+          display: block;
+          width: 280px;
+          margin-left:45px ;
+          padding-bottom: 30px;
+       
+        }
+  
+        .flop2{
+          text-decoration: none;
+          color: white;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+  
+        .tues2{
+          display: block;
+    
+          width: 250px;
+         position: relative;
+         margin-left: 13px;
+        }
+  
+        .tept{
+          padding: 10px;
+          text-align: justify;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          color:white;
+        }
+  
+        .colon{  text-align: justify;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          padding-left: 5px;
+  
+        }
+  
+    
+  
+     
+  
+        .act:hover{
+          color: brown;
+          transition: .5 ease;
+          -webkit-transition: .5 ease;
+          -moz-transition: .5 ease;
+          -ms-transition: .5 ease;
+          -o-transition: .5 ease;
+  }
+  
+  .act{
+    color: white;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+  
+  .colonb{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding-left: 35px;
+  }
+  
+  .colonb3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding-left: 35px;
+  }
+  
+  .colonb4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding-left: 35px;
+    position: absolute;
+  }
+  
+  
+  .pix2{
+    display: inline-block;
+    height: 23px;
+    background-color: brown;
+    border-radius: 50%;
+   
+  }
+  
+  .mac{display:inline-block ;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          color: white;}
+  
+          .mac2{display:inline-block ;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+              color: white;}
+  
+              .mac2:hover{
+                color: brown;
+              }
+  
+              .mac3{
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                  color: rgb(201, 201, 201);
+                  padding-left: 35px;
+           
+  
+              }
+              .mac4{
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                  color: rgb(201, 201, 201);
+                  padding-left: 35px;
+     
+              }
+  
+            
+            #mac5{
+              font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: rgb(201, 201, 201);
+                padding-top: 25px;
+                padding-left: 30px;
+           
+   
+            }
+  
+  
+              
+  
+       .tues3{
+      
+        display: block;
+        margin-left: 230px;
+       
+        margin-top: -240px;
+       }   
+  
+       .tues4{
+     
+        display: block;
+   
+        margin-left: 0px;
+ 
+        margin-top: 50px;
+       }
+  
+  
+       
+       input[type=text] {
+  
+        padding: 6px;
+        border: none;
+        margin-top: 60px;
+        font-size: 14px;
+        background-color:white;
+        width: 280px;
+        height: 35px;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        outline: none;
+        margin-left: 30px;
+  }
+  
+  input {
+    border: 4px solid black;
+  }
+  
+  .mond{
+  display: block;
+  
+  margin-top: 55px;
+  }
+  
+  .feto{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(201, 201, 201);
+    font-size: 14px;
+    text-align: center;
+    
+    margin-left: 0px;
+    margin-top: 350px;
+    display: block;
+    background-color: red;
+  }
+  
+  .mac6{
+    color: brown;
+  }
+  
+  .mac6:hover{
+    color: green;
+  }
+  
+  .sidebar {
+    height: 60px;
+    width: 60px;
+    position:fixed ;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 10px;
+    margin-left:1175px;
+    margin-top:540px;
+    background-color: brown;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    opacity: 1;
+  }
+  
+  .sidebar .maf{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: burlywood;
+    display: block;
+    background-color: brown;
+    margin-left: 1px;
+    
+  
+  }
+  
+  .sidebar :hover {
+    color: burlywood;
+  }
+  
+
+
+
+
+}
