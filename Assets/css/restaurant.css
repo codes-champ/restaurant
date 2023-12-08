@@ -61,6 +61,15 @@ header {
 }
 
 
+select{
+  color: white;
+  font-family: poppins;
+  border: none;
+  outline: none;
+  background-color: #333;
+}
+
+
 
 
 
@@ -127,7 +136,7 @@ header {
 }
 
 .index{
-  position: relative;
+  position: absolute;
   border: 1px solid burlywood;
   padding: 20px;
   background-color: burlywood;
@@ -1519,7 +1528,7 @@ margin-top: 55px;
    
         margin-left: 0px;
  
-        margin-top: 50px;
+        margin-top: 50px; 
        }
   
   
